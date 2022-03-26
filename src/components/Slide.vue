@@ -5,15 +5,12 @@
 </template>
 
 <script>
-// import imgUrl from `../src/assets/images/$image.filename`;
-var baseUrl = import.meta.env.BASE_URL + "images/"
 
 export default {
   name: 'Slide',
   props: ['image'],
   data () {
     return {
-      baseUrl: baseUrl,
     }
   }
 }
