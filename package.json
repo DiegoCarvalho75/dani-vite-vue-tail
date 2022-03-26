@@ -7,6 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@splidejs/splide": "^3.6.12",
+    "@splidejs/vue-splide": "^0.5.18",
     "vue": "^3.2.16"
   },
   "devDependencies": {
