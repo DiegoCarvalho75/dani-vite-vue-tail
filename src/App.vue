@@ -1,7 +1,7 @@
 <script setup>
-import Galeria from './layouts/Galeria.vue';
+import GaleriaComp from './layouts/Galeria-Comp.vue'
 </script>
 
 <template>
-  <Galeria/>
+  <GaleriaComp />
 </template>

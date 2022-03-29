@@ -4,5 +4,8 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  publicDir: "images"
+  publicDir: "images",
+  server: {
+    host: true
+  }
 })

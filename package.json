@@ -2,9 +2,9 @@
   "name": "vite-vue-tail",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview "
   },
   "dependencies": {
     "@splidejs/splide": "^3.6.12",
@@ -14,6 +14,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.3",
     "autoprefixer": "^10.3.7",
+    "eslint": "^8.12.0",
+    "eslint-plugin-vue": "^8.5.0",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.16",
     "vite": "^2.6.4"
