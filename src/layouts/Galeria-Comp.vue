@@ -2,7 +2,7 @@
   <Splide
     :options="{
       type: 'fade',
-      arrow: false,
+      arrows: false,
       flickPower: 50,
       flickMaxPages: 1,
     }"
