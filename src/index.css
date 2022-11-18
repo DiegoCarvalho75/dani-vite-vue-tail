@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .slider-image {
-  max-height: 100vh;
+  max-height: 80vh;
 }

@@ -5,6 +5,7 @@
       arrows: true,
       flickPower: 50,
       flickMaxPages: 1,
+      cover:true
     }"
     class=" bg-gray-500"
     id="splideVh"
@@ -14,7 +15,9 @@
       :image="slide"
       :key="index"
       class="slideVh"
+      :alt="index"
     ></Slide>
+    
   </Splide>
 </template>
 
