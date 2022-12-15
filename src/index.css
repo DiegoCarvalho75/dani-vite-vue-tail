@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 .slider-image {
-<<<<<<< HEAD
   max-height: 100vh;
   max-width: 100vw;
-=======
-  max-height: 80vh;
->>>>>>> cdfb24eac898b0cad0678854a0a17deb28236328
 }

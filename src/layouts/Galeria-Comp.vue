@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div class="">
     <Splide
       :options="{
@@ -18,28 +17,6 @@
       ></Slide>
     </Splide>
   </div>
-=======
-  <Splide
-    :options="{
-      type: 'fade',
-      arrows: true,
-      flickPower: 50,
-      flickMaxPages: 1,
-      cover:true
-    }"
-    class=" bg-gray-500"
-    id="splideVh"
-  >
-    <Slide
-      v-for="(slide, index) in images"
-      :image="slide"
-      :key="index"
-      class="slideVh"
-      :alt="index"
-    ></Slide>
-    
-  </Splide>
->>>>>>> cdfb24eac898b0cad0678854a0a17deb28236328
 </template>
 
 <script>

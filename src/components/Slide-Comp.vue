@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <SplideSlide
     class="min-h-full w-full flex flex-col justify-center items-center "
   >
@@ -11,15 +10,6 @@
       />
 </div>
   </SplideSlide>
-=======
-
-<SplideSlide class="min-h-full w-full flex flex-col justify-center items-center text-xl text-white">
-  {{image.id}}
-  <div >  
-    <img :src="`${ image.filename }`" class="slider-image">
-  </div>       
- </SplideSlide>
->>>>>>> cdfb24eac898b0cad0678854a0a17deb28236328
 </template>
 
 <script>
